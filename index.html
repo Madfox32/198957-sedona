@@ -71,20 +71,29 @@
           <h2 class="index-content-title">Заинтересовались</h2>
           <p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостииц в Седоне</p>
           <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-            <input type="date" name="calendar" value="" placeholder="Дата заезда">
-            <input type="date" name="calendar" value="" placeholder="Дата выезда">
+		    <p>Дата заезда:</p>
+            <input type="date" name="calendar" value="2016-04-18" placeholder="18 апреля 2016">
+            <p>Дата выезда:</p>
+			<input type="date" name="calendar" value="2016-04-19" placeholder="19 апреля 2016">
+			<p>Взрослые:</p>
+			<div class="minus"></div>
+			<input type="text" name="adult" placeholder="2">
+			<div class="plus"></div>
+			<p>Дети:</p>
+			<div class="minus"></div>
+			<input type="text" name="children" placeholder="2">
+			<div class="plus"></div>
             <button class="btn" type="submit">Найти</button>
           </form>
-        </div>
-		  
+        </div> 
     </main>
 	<footer class="main-footer">
       <div class="container">
 	  <p># VISITSEDONA</p>
 	  <section class="footer-social">
-          <a class="social-btn social-btn-vk" href="#">Твиттер</a>
+          <a class="social-btn social-btn-tw" href="#">Твиттер</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Ютюб</a>
+          <a class="social-btn social-btn-ut" href="#">Ютюб</a>
         </section>
         <section class="footer-copyright">
 		  <p>Website by</p>

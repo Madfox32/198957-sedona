@@ -7,20 +7,20 @@
   </head>
   <body>
     <div class="container">
-      <header class="catalog-header">
+      <header class="main-header">
 	    <a href="index.html">
 		  <img src="img/title_icon.png" width="138" height="70" alt="Седона">
 		</a>
 		<nav class="main-navigator">
 		  <ul>
 		    <li>
-			  <a class="main-navigator-current">Информация</a>
+			  <a href="#">Информация</a>
 			</li>
 			<li>
-			  <a class="main-navigator-current">Фото и видео</a>
+			  <a href="#">Фото и видео</a>
 			</li>
 			<li>
-			  <a class="main-navigator-current">Карта штата</a>
+			  <a href="#">Карта штата</a>
 			</li>
 			<li>
 			  <a class="main-navigator-current">Гостиницы</a>
@@ -67,11 +67,17 @@
 		<div class="sorting">
 		  <span class="result-number">Найдено:3</span>
 		  <span>Сортировка</span>
-		    <p class="price">По цене</p>
-		    <p class="type">По типу</p>
-		    <p class="rating">По рейтингу</p>
-			<a class="range-sorting-up" href="#">От большего к меньшему</a>
-			<a class="range-sorting-down" href="#">От меньшего к большему</a>
+		    <div class="range-sorting-type active"
+		      <a class="price" href="#">По цене</a>
+			</div>
+			<div class="range-sorting-type">
+		      <a class="type" href="#">По типу</a>
+		      <a class="rating" href="#">По рейтингу</a>
+			</div>
+			<div class="range-sorting"
+			  <a class="range-sorting-up" href="#">От большего к меньшему</a>
+			  <a class="range-sorting-down" href="#">От меньшего к большему</a>
+			</div>
 	    </div>
 		<div class="result-hotels">
           <ul>		  
@@ -80,15 +86,15 @@
 		        <img src="img/amara_hotel.jpg" width="135" height="90" alt="Amara Resort & SPA">
 			  </div>
 			  <div class="hotel"> 
-			    <p>Desert Quail Inn</p>
-			    <div class="hotel-action hotel-more">
+			    <h2>Desert Quail Inn</h2>
+			    <div class="hotel-more">
 			      <p>Отель</p>
+		          <span>От 3500 Р.</span> 
+                </div>				  
+				<div class="button">
 				  <a href="#">Подробнее</a>
-			    </div>
-			    <div class="hotel-action hotel-reserve">
-		          <div>От 3500 Р.</div>  
 		          <a href="#">Забронировать</a>
-		        </div>
+				</div>
 			  </div>
 		      <div class="info">		    
 			    <div class="category">
@@ -107,13 +113,13 @@
 		        <img src="img/desert_hotel.jpg" width="135" height="90" alt="Desert Quail Inn">
 			  </div>
 			  <div class="hotel">
-			    <p>Desert Quail Inn</p>
-				<div class="hotel-action hotel-more">
+			    <h2>Desert Quail Inn</h2>
+				<div class="hotel-more">
 			      <p>Мотель</p>
-			      <a href="#">Подробнее</a>
-			    </div>
-			    <div class="hotel-action hotel-reserve">
-		          <div>От 2000 Р.</div>  
+		          <span>От 2000 Р.</span> 
+                </div>				  
+				<div class="button"
+				  <a href="#">Подробнее</a>
 		          <a href="#">Забронировать</a>
 		        </div>
 			  </div>
@@ -132,16 +138,16 @@
 		        <img src="img/villas_hotel.jpg" width="135" height="90" alt="Desert Quail Inn">
 			  </div> 
               <div class="hotel">
-                <p>Villas at Poco Diablo</p>
-				<div class="hotel-action hotel-more">
-			      <p>Аппартаменты</p>
-		          <a href="#">Подробнее</a>
-		        </div>
-			    <div class="hotel-action hotel-reserve">
-		          <div>От 4000 Р.</div>  
+                <h2>Villas at Poco Diablo</h2>
+				<div class="hotel-more">
+			      <p>Аппартаменты</p
+		          <span>От 4000 Р.</span> 
+                </div>				  
+				<div class="button"
+				  <a href="#">Подробнее</a>
 		          <a href="#">Забронировать</a>
 		        </div>
-			  </div>
+		      </div>
 			  <div class="info">
 			    <div class="category">
 			      <ul>

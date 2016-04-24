@@ -425,11 +425,21 @@ body
 	font-weight: bold;
 	font-family: PT Sans Bold;
 }
+.container {
+    width: 1200px;
+    padding: 0 10px;
+}
 .main-header
 {
+	margin: 0 auto;
+	margin-bottom: 78px;
 	font-size: 14px;
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold;
 	font-family: PT Sans Bold;
+}
+.main-navigation {
+    min-height: 56px;
+    width: 1200;
 }

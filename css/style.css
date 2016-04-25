@@ -427,11 +427,11 @@ body
 }
 .container {
     width: 1200px;
+	margin: 0 auto;
     padding: 0 10px;
 }
 .main-header
 {
-	margin: 0 auto;
 	margin-bottom: 78px;
 	font-size: 14px;
 	line-height: 26px;
@@ -439,7 +439,34 @@ body
 	font-weight: bold;
 	font-family: PT Sans Bold;
 }
+.logo
+{
+	
+}
 .main-navigation {
     min-height: 56px;
     width: 1200;
+}
+
+.title{
+	width: 458px;
+    height: 352px;
+    margin-right: auto;
+    margin-left: auto;
+	margin-bottom: 143px;
+}
+ h1 {
+	text-align:center;
+}
+.feature{
+	text-align:center
+}
+.row {
+	height: 256p;
+	background-color; yellow;
+}
+.feature-name .feature-view
+{
+	width: 400px;
+	margin-top: 58px;
 }

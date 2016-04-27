@@ -417,6 +417,7 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
 body
 {
 	font-size: 14px;
@@ -425,11 +426,13 @@ body
 	font-weight: bold;
 	font-family: PT Sans Bold;
 }
+
 .container {
     width: 1200px;
 	margin: 0 auto;
     padding: 0 10px;
 }
+
 .main-header
 {
 	margin-bottom: 78px;
@@ -439,10 +442,14 @@ body
 	font-weight: bold;
 	font-family: PT Sans Bold;
 }
+
 .logo
 {
-	
+	position: absolute;
+	left:600px;
+    top:0px;
 }
+
 .main-navigation {
     min-height: 56px;
     width: 1200;
@@ -453,7 +460,7 @@ body
     height: 352px;
     margin-right: auto;
     margin-left: auto;
-	margin-bottom: 143px;
+	margin-bottom: 140px;
 }
  h1 {
 	text-align:center;
@@ -461,12 +468,110 @@ body
 .feature{
 	text-align:center
 }
-.row {
-	height: 256p;
-	background-color; yellow;
-}
-.feature-name .feature-view
+
+.feature-name 
 {
+	display: inline-block;
 	width: 400px;
+	height: 256px;
 	margin-top: 58px;
+	background-color: #81b3d2;
+	text-align: center;
+	margin-right: -4px;
+}
+
+.img
+{
+   display: inline-block;
+   margin-top: 58px;
+   margin-right: -4px;	
+}
+
+.feature-additional 
+{
+	display: inline-block;
+	height: 256px;
+	width: 400px;
+	text-align: center;
+	margin-right: -4px;
+	margin-top: 37px;
+    margin-bottom: 37px;	
+}
+
+ .feature-list
+ {
+	background-color: #eeeeee; 
+ }
+ 
+.feature-view
+{
+    display: inline-block;
+	width: 400px;
+	height: 256px;
+	margin-top: 58px;
+	background-color: #81b3d2;
+	text-align: center;
+
+}
+
+.map
+{
+	margin-top: 292px;
+	position:relative;
+}
+
+.search-block
+{
+	height: 636px;
+	width: 568px;
+	margin-top: 56px;
+	position:absolute;
+	z-index:1;
+}
+
+.index-content-title
+
+{
+	text-align: center;
+}
+
+p .
+{
+	text-align: center;
+}
+
+.main-footer
+{
+	height: 120px;
+	padding-top: 36px;
+    padding-bottom:36px;
+
+}
+
+.footer-hashteg
+{
+	display: inline-block;
+	width: 240px;
+	margin-left: 80px;
+	margin-right: 80px;
+	text-align: center;
+	/*не понимаю каким способом лучше бороться с пробелами, комментариями или не закрывать теги, пробовала оба, не получается, или строить footer флоутами*/
+}
+
+.footer-social
+{
+	display: inline-block;
+	width: 240px;
+	margin-left: 80px;
+	margin-right: 80px;
+	text-align: center;
+}
+
+.footer-copyright
+{
+	display: inline-block;
+	width: 240px;
+	margin-right: 80px;
+	margin-left: 80px;
+	text-align: center;
 }

@@ -446,20 +446,39 @@ body
 .logo
 {
 	position: absolute;
-	left:590px;
-    top:0px;
+	display: block;
+	z-index: 2;
+	left: 50%;
+    margin-left: -69px;
+}
+.clearfix::after 
+{
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.main-navigation {
-    min-height: 56px;
-    width: 1200px;
+.main-navigator 
+{
+	
+}
+
+ul
+{
+	list-style: none;
+	left-padding: 0;
+}
+
+li .navy: nth-child(n+3)
+{
 	float: left;
 }
 
-li:nth-child(-n+2)
+li .navy:nth-child(-n+3)
 {
-float: right;	
+	float: right;	
 }
+/*сдвигаются на правый край и выстраиваются списком*/
 
 .title{
 	width: 458px;
@@ -471,6 +490,12 @@ float: right;
  h1 {
 	text-align:center;
 }
+
+.row
+{
+	font-size: 0;
+}
+
 .feature{
 	text-align:center
 }
@@ -484,7 +509,7 @@ float: right;
 	margin-top: 58px;
 	background-color: #81b3d2;
 	text-align: center;
-	margin-right: -4px;
+	font-size: 14px;
 }
 
 .img
@@ -498,10 +523,11 @@ float: right;
 .feature-additional 
 {
 	display: inline-block;
+	vertical-align: top;
 	height: 256px;
 	width: 400px;
 	text-align: center;
-	margin-right: -4px;
+	font-size: 14px;
 	margin-top: 37px;
     margin-bottom: 37px;	
 }
@@ -520,7 +546,7 @@ float: right;
 	margin-top: 58px;
 	background-color: #81b3d2;
 	text-align: center;
-
+	font-size: 14px;
 }
 
 .map
@@ -544,15 +570,22 @@ float: right;
 	text-align: center;
 }
 
-p .
+.date-travel
 {
 	text-align: center;
 }
 
 .appointment-form
 {
-
+	width: 574px;
+	margin-left: 313px;
+	margin-right: 314px;
+	padding-top:
+	padding-bottom: 55px;
+	padding-left: 54px;
+	padding-right: 55px;
 }
+
 .main-footer
 {
 	font-size: 0;
@@ -607,20 +640,17 @@ p .
 {
 	display: inline-block;
 	width: auto;
-	margin-right: -4px;
 	padding-left: 73px;
 	padding-right: 101px;
 	font-size: 14px;
 	text-align: center;
-	font-size: 14px;
 }
 .housing
 {
 	display: inline-block;
 	width: auto;
-	margin-right: -4px;
 	padding-left: 14px;
-	padding-right: 138px;
+	padding-right: 101px;
 	font-size: 14px;
 	text-align: center;
 }
@@ -629,14 +659,13 @@ p .
 {
 	display: inline-block;
 	vertical-align: top;
-	margin-right: -4px;
 	width: auto;
 	padding-left: 73px;
 	padding-right: 101px;
 	font-size: 14px;
 	text-align: center;
 }
-
+/*В блоке форма размер шрифта 0, а в каждом подблоке указан размер шрифта, но все равно отступ между блоками есть*/
 .sorting
 {
 	margin-top: 0px;

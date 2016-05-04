@@ -854,6 +854,20 @@ h2
 	padding-bottom: 9px;
 }
 
+.category ul 
+{
+	text-align: right;
+}
+
+.category li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: red; /* сюда нужно фоном пнгшку со звездочкой*/
+	
+	
+} 
+
 .rating
 {
 	width: 111px;

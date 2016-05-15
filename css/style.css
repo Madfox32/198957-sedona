@@ -517,10 +517,6 @@ main-header
     margin-right: 8%;
 }
 
-
-
-/* Добавила жирность 700*/
-
 .main-navigator a
 {
 	text-decoration: none;
@@ -545,7 +541,8 @@ title
 .title
 {
 	width: 1196px;
-    height: 507px;background-color: #f2f2f2;
+    height: 507px;
+	background-color: #f2f2f2;
 	background-image: url("../img/background_intro.jpg");
 	background-repeat: no-repeat;
 	margin: 0px;
@@ -553,9 +550,6 @@ title
 
 }
 
-/* убрала отступы. Картинка сама встанет повередине, если сделать ее блочной
-
-*/
 .title img
 {
 	display: block;
@@ -684,6 +678,7 @@ feature
 	width: 72px;
 	height: 75px;
     background-color: red;
+	background-image: url ("../img/housing_icon.png");
 	position: absolute;
 	top: 60px;
 	left: 163px;
@@ -710,7 +705,7 @@ feature
 	position: absolute;
 	top: 60px;
 	left: 168px;
-    /*background-image: url ("../img/souvenir_icon.png");*/
+    background-image: url ("../img/souvenir_icon.png");
 	background-color: red;
 }
 
@@ -732,8 +727,8 @@ feature
 	z-index:1;
 	left: 50%;
     margin-left: -284px;
-	margin-top: 56px;
-	height: 633px;
+	margin-top: 190px;
+	height: 480px;
 	width: 570px;
 	background-color: #eeeeee;
 }
@@ -745,7 +740,7 @@ feature
 	font-weight: 700;
     font-size: 30px;
     line-height: 24px;
-	  font-family: "PT Sans", "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .date-travel
@@ -792,18 +787,25 @@ feature
 	padding-left: 56px;
 }
 
-.adult input
+#adult
 {
- width: 7px;
- padding: 12px 54px 54px 15px;	
+	padding: 12px 0 12px 0;
+	width: 38px;
+	text-align: center;
 }
-
-.btn {
+#children
+{
+	padding: 12px 0 12px 0;
+	width: 38px;
+	text-align: center;
+}
+/*.search-block .btn 
+{
   display: inline-block;
   margin-right: 55px;
-  margin-left: 0px;
-  margin-top: 22px;
-  margin-bottom: 57px;
+  margin-left: 55px;
+  margin-top: 55px;
+  margin-bottom: 55px;
   padding: 20px 198px;
   font-weight: 700;
   font-size: 21px;
@@ -817,14 +819,15 @@ feature
   background-color: #81b3d2;
   border: none;
   outline: none;
-  cursor: pointer;
+  cursor: pointer;*/
 
-.main-footer
+.main-footer 
 {
+	position: absolute;
+	z-index: 2;
 	font-size: 0;
 	height: 120px;
-	padding-top: 36px;
-    padding-bottom:36px;
+	
 
 }
 
@@ -850,6 +853,32 @@ feature
 	background-color: #ffccff;
 }
 
+.social-btn {
+	display: inline-block;
+	vertical-align: top;
+	width: 46px;
+	height: 48px;
+	font-size: 0;
+	margin: 0 5px;
+	background-color: red;
+	
+}
+.social-btn-tw 
+{
+	background-image: url ("../img/twitter_icon.png");
+	background-repeat: no-repeat;
+}
+
+.social-btn-fb
+{
+	background-image: url ("../img/facebook_icon.png");
+	background-repeat: no-repeat;
+}
+.social-btn-ut
+{
+	background-image: url ("../img/youtube_icon.png");
+	background-repeat: no-repeat;
+}
 .footer-copyright
 {
 	display: inline-block;
@@ -875,6 +904,7 @@ feature
 	font-size: 14px;
 	margin-right: 0px;
 }
+
 .infrastructure
 {
 	display: inline-block;
@@ -886,6 +916,10 @@ feature
 	text-align: left;
 	margin-left: 0px;
 	margin-right: 0px;
+}
+
+.infrastructure ul {
+	list-style: none;
 }
 .housing
 {
@@ -899,6 +933,10 @@ feature
 	text-align: left;
 	margin-left: 0px;
 	margin-right: 0px;
+}
+
+.housing ul {
+	list-style: none;
 }
 
 .cost
@@ -999,6 +1037,11 @@ legend
 	padding-bottom: 22px;
 }
 
+.result-hotels ul {
+	margin: 0;
+	list-style: none;
+	padding-left: 0;	
+}
 .hotel-img
 {
 	display: inline-block;
@@ -1075,7 +1118,7 @@ h2
 	height: 90px;
 	margin-top: 30px;
 	margin-left: 320px;
-	background-color: #cccfff;
+	background-color: 
 }
 
 .category
@@ -1095,7 +1138,8 @@ h2
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	background: red; /* сюда нужно фоном пнгшку со звездочкой*/
+	background-image: url("../img/star.png");
+	background-repeat: no-repeat;
 	
 	
 } 
